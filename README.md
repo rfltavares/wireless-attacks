@@ -495,9 +495,7 @@ wifi_audit_<timestamp>/
 
 ---
 
-## Additional Resources
-
-### Learning
+### Additional Resources
 
 - [Aircrack-ng Documentation](https://www.aircrack-ng.org/)
 - [Wireless Security on Kali](https://www.kali.org/docs/wireless/)
@@ -517,28 +515,12 @@ wifi_audit_<timestamp>/
 
 ---
 
-## Known Issues
-
-1. **Some adapters don't support packet injection**
-   - Solution: Use compatible adapter (see hardware requirements)
-
-2. **Monitor mode not working on some systems**
-   - Solution: Update drivers or use external adapter
-
-3. **Hashcat not using GPU**
-   - Solution: Install proper GPU drivers (CUDA/OpenCL)
-
-4. **NetworkManager interfering**
-   - Solution: `sudo airmon-ng check kill`
-
----
-
 ## License
 
-These scripts are provided for educational and authorized security testing purposes only.
+The scripts provided are for educational and authorized security testing purposes only.
 
 **Use at your own risk. Authors are not responsible for misuse.**
 
 ---
 
-**Remember: With great power comes great responsibility. Hacking is ethical! **
+**Remember: Hacking is ethical! **
