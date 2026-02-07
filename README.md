@@ -98,7 +98,7 @@ sudo ./evil_twin_attack.sh <interface> <target_ssid> <target_bssid> <channel>
 
 ---
 
-## 🛠️ Installation & Requirements
+## Installation & Requirements
 
 ### Required Tools
 
@@ -453,7 +453,7 @@ aireplay-ng --deauth 5 -a <bssid> -c <client_mac> wlan0mon
 
 ---
 
-## 📁 Output Files
+## Output Files
 
 ### File Types Generated
 
@@ -495,7 +495,7 @@ wifi_audit_<timestamp>/
 
 ---
 
-## 📖 Additional Resources
+## Additional Resources
 
 ### Learning
 
@@ -533,7 +533,7 @@ wifi_audit_<timestamp>/
 
 ---
 
-## 📄 License
+## License
 
 These scripts are provided for educational and authorized security testing purposes only.
 
