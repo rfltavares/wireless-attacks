@@ -410,7 +410,7 @@ iwconfig
 
 ---
 
-## 💡 Pro Tips
+## Pro Tips
 
 ### Wordlist Optimization
 
