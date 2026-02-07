@@ -2,7 +2,7 @@
 
 Comprehensive WiFi security auditing and penetration testing toolkit using aircrack-ng suite and related tools.
 
-## ⚠️ LEGAL DISCLAIMER
+## LEGAL DISCLAIMER
 
 **CRITICAL WARNING:** These tools are for AUTHORIZED security testing ONLY!
 
@@ -11,7 +11,7 @@ Comprehensive WiFi security auditing and penetration testing toolkit using aircr
 - Violators may face criminal prosecution and civil liability
 - Use responsibly and ethically
 
-## 📦 Scripts Included
+## Scripts 
 
 ### 1. **auto_wifi_crack.sh** - All-in-One Automated WiFi Cracker
 Complete automated solution with interactive menu.
@@ -144,7 +144,7 @@ iwconfig
 
 ---
 
-## 🚀 Quick Start Guide
+## Start Guide
 
 ### Basic Workflow
 
@@ -175,7 +175,7 @@ sudo ./auto_wifi_crack.sh
 
 ---
 
-## 📚 Attack Methods Explained
+## Attack Methods Explained
 
 ### 1. WEP Attack (ARP Replay)
 
@@ -301,7 +301,7 @@ sudo ./evil_twin_attack.sh wlan0mon "Target_Network" <bssid> <channel>
 
 ---
 
-## 🎯 Usage Examples
+## Usage Examples
 
 ### Example 1: Quick WPS Attack
 
@@ -344,30 +344,30 @@ sudo ./auto_wifi_crack.sh
 
 ---
 
-## 📊 Success Factors
+## Success Factors
 
 ### Factors Affecting Success
 
 **WEP:**
-- ✅ Always crackable (protocol is broken)
-- ⏱️ Requires active clients or packet injection
+- Always crackable (protocol is broken)
+- Requires active clients or packet injection
 
 **WPA/WPA2:**
-- ✅ Password in wordlist
-- ✅ Weak password
-- ❌ Strong random password
-- ❌ Password not in wordlist
+- Password in wordlist
+- Weak password
+- Strong random password
+- Password not in wordlist
 
 **WPS:**
-- ✅ WPS enabled
-- ✅ Vulnerable to Pixie Dust
-- ❌ WPS disabled
-- ❌ Rate limiting enabled
-- ❌ Patched firmware
+- WPS enabled
+- Vulnerable to Pixie Dust
+- WPS disabled
+- Rate limiting enabled
+- Patched firmware
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Monitor Mode Issues
 
@@ -470,7 +470,7 @@ wifi_audit_<timestamp>/
 
 ---
 
-## 🔐 Security Best Practices
+## Security Best Practices
 
 ### For Testers
 
@@ -484,14 +484,14 @@ wifi_audit_<timestamp>/
 ### For Network Owners
 
 **Protect your network:**
-- ✅ Use WPA3 if available
-- ✅ Disable WPS
-- ✅ Use strong, random passwords (20+ characters)
-- ✅ Enable MAC filtering (additional layer)
-- ✅ Hide SSID (security through obscurity)
-- ✅ Regular firmware updates
-- ✅ Monitor for rogue APs
-- ✅ Use enterprise authentication (802.1X)
+-  Use WPA3 if available
+-  Disable WPS
+-  Use strong, random passwords (20+ characters)
+-  Enable MAC filtering (additional layer)
+-  Hide SSID (security through obscurity)
+-  Regular firmware updates
+-  Monitor for rogue APs
+-  Use enterprise authentication (802.1X)
 
 ---
 
@@ -517,7 +517,7 @@ wifi_audit_<timestamp>/
 
 ---
 
-## 🐛 Known Issues
+## Known Issues
 
 1. **Some adapters don't support packet injection**
    - Solution: Use compatible adapter (see hardware requirements)
@@ -533,16 +533,6 @@ wifi_audit_<timestamp>/
 
 ---
 
-## 🤝 Contributing
-
-Improvements welcome! Consider:
-- Additional attack methods
-- Better error handling
-- Performance optimizations
-- Documentation improvements
-
----
-
 ## 📄 License
 
 These scripts are provided for educational and authorized security testing purposes only.
@@ -551,14 +541,4 @@ These scripts are provided for educational and authorized security testing purpo
 
 ---
 
-## 🎓 Certification Prep
-
-These tools are useful for:
-- **OSWP** (Offensive Security Wireless Professional)
-- **CEH** (Certified Ethical Hacker)
-- **GPEN** (GIAC Penetration Tester)
-- **Security+** (CompTIA)
-
----
-
-**Remember: With great power comes great responsibility. Hack ethically! 🔐**
+**Remember: With great power comes great responsibility. Hacking is ethical! **
